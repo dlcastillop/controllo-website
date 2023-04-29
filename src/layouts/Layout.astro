@@ -11,9 +11,39 @@ const { title } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/icon.png" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
+    <meta
+      name="title"
+      content="Controllo - Free browser extension to track all your subscriptions in one place"
+    />
+    <meta
+      name="description"
+      content="With Controllo you will always be updated on your subscriptions and you will never miss another payment date."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://controllo.dlcastillop.com/" />
+    <meta
+      property="og:title"
+      content="Controllo - Free browser extension to track all your subscriptions in one place"
+    />
+    <meta
+      property="og:description"
+      content="With Controllo you will always be updated on your subscriptions and you will never miss another payment date."
+    />
+    <meta property="og:image" content="/og.png" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://controllo.dlcastillop.com/" />
+    <meta
+      property="twitter:title"
+      content="Controllo - Free browser extension to track all your subscriptions in one place"
+    />
+    <meta
+      property="twitter:description"
+      content="With Controllo you will always be updated on your subscriptions and you will never miss another payment date."
+    />
+    <meta property="twitter:image" content="/og.png" />
   </head>
   <body>
     <slot />
