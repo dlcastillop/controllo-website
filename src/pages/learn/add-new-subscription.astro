@@ -1,66 +1,49 @@
 ---
-import Layout from "../../layouts/Layout.astro";
-import NavBar from "../../components/NavBar.astro";
-import Footer from "../../components/Footer.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 ---
 
-<Layout
+<BaseLayout
   title="Add a new subscription"
   description="Learn how to add a new subscription to Controllo"
   url="https://controllo.dlcastillop.com/learn/add-new-subscription"
 >
-  <div class="min-h-screen bg-base-200 text-white">
-    <NavBar />
-    <main class="max-w-3xl m-auto">
-      <div class="hero mt-5">
-        <div class="hero-content text-center">
-          <div class="text-base text-left flex flex-col gap-6">
-            <h1 class="text-4xl font-bold text-center">
-              Add a new subscription
-            </h1>
-            <p>
-              Controllo allows you to have as many subscriptions as you need,
-              that is, there is no limit to the amount you can enter. In this
-              tutorial you will learn how to add your subscriptions in
-              Controllo.
-            </p>
-            <h2 class="text-xl font-semibold">Step 1: Press the add button</h2>
-            <p>
-              At the top of Controllo you will find the add button. It's the one
-              with the + icon.
-            </p>
-            <p>Once you press it, this form will open.</p>
-            <h2 class="text-xl font-semibold">Step 2: Fill out the form</h2>
-            <p>
-              Now you have to complete the form. Keep in mind that these fields
-              are required and if you leave any blank you will not be able to
-              continue.
-            </p>
-            <p>
-              In the first field, enter the name of the service. For example:
-              Netflix, Spotify, etc.
-            </p>
-            <p>
-              In the second field enter how much you pay for the service. For
-              example: 10, 125, etc.
-            </p>
-            <p>
-              In the third field, select how often you pay for that service.
-              Choose one of two options: monthly or yearly.
-            </p>
-            <p>
-              In the fourth field, select the due date or the date of the next
-              payment.
-            </p>
-            <p>
-              Now click on the “ADD” button to close the form and add the
-              subscription.
-            </p>
-            <p>And voilà, your subscription has been added.</p>
-          </div>
-        </div>
-      </div>
-      <Footer />
-    </main>
+  <div class="text-base text-left flex flex-col gap-6">
+    <h1 class="text-4xl font-bold text-center">Add a new subscription</h1>
+    <p>
+      Controllo allows you to have as many subscriptions as you need, that is,
+      there is no limit to the amount you can enter. In this tutorial you will
+      learn how to add your subscriptions in Controllo.
+    </p>
+    <img src="./a.jpg" alt="" />
+    <h2 class="text-xl font-semibold">Step 1: Press the add button</h2>
+    <p>
+      At the top of Controllo you will find the add button. It's the one with
+      the + icon.
+    </p>
+    <p>Once you press it, this form will open.</p>
+    <h2 class="text-xl font-semibold">Step 2: Fill out the form</h2>
+    <p>
+      Now you have to complete the form. Keep in mind that these fields are
+      required and if you leave any blank you will not be able to continue.
+    </p>
+    <p>
+      In the first field, enter the name of the service. For example: Netflix,
+      Spotify, etc.
+    </p>
+    <p>
+      In the second field enter how much you pay for the service. For example:
+      10, 125, etc.
+    </p>
+    <p>
+      In the third field, select how often you pay for that service. Choose one
+      of two options: monthly or yearly.
+    </p>
+    <p>
+      In the fourth field, select the due date or the date of the next payment.
+    </p>
+    <p>
+      Now click on the “ADD” button to close the form and add the subscription.
+    </p>
+    <p>And voilà, your subscription has been added.</p>
   </div>
-</Layout>
+</BaseLayout>

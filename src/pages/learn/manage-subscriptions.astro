@@ -1,58 +1,44 @@
 ---
-import Layout from "../../layouts/Layout.astro";
-import NavBar from "../../components/NavBar.astro";
-import Footer from "../../components/Footer.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 ---
 
-<Layout
+<BaseLayout
   title="Manage your subscriptions"
   description="Learn how to manage your subscriptions in Controllo"
   url="https://controllo.dlcastillop.com/learn/manage-subscriptions"
 >
-  <div class="min-h-screen bg-base-200 text-white">
-    <NavBar />
-    <main class="max-w-3xl m-auto">
-      <div class="hero mt-5">
-        <div class="hero-content text-center">
-          <div class="text-base text-left flex flex-col gap-6">
-            <h1 class="text-4xl font-bold text-center">
-              Manage your subscriptions
-            </h1>
-            <p>
-              In addition to adding all your subscriptions, with Controllo you
-              can also manage them without any limit. In this article you will
-              learn how to edit and delete your subscriptions.
-            </p>
-            <h2 class="text-xl font-semibold">Locate subscription options</h2>
-            <p>
-              The subscriptions are represented in the form of a card and at the
-              end of each one you will find an icon with three points that when
-              you hover it shows two options: Edit and Delete.
-            </p>
-            <h2 class="text-xl font-semibold">Edit your subscriptions</h2>
-            <p>
-              When you press the Edit button, a form will open like the one
-              shown when you want to add a new subscription, but it will contain
-              the data of the selected subscription.
-            </p>
-            <p>Now you can edit each field.</p>
-            <p>
-              When you are ready, press the SAVE button to save the changes and
-              close the form.
-            </p>
-            <p>
-              Keep in mind that these fields are required and if you leave any
-              blank you will not be able to continue.
-            </p>
-            <h2 class="text-xl font-semibold">Delete your subscriptions</h2>
-            <p>
-              When you press the Delete button, the subscription is deleted.
-              Please note that this change is permanent and cannot be undone.
-            </p>
-          </div>
-        </div>
-      </div>
-      <Footer />
-    </main>
+  <div class="text-base text-left flex flex-col gap-6">
+    <h1 class="text-4xl font-bold text-center">Manage your subscriptions</h1>
+    <p>
+      In addition to adding all your subscriptions, with Controllo you can also
+      manage them without any limit. In this article you will learn how to edit
+      and delete your subscriptions.
+    </p>
+    <h2 class="text-xl font-semibold">Locate subscription options</h2>
+    <p>
+      The subscriptions are represented in the form of a card and at the end of
+      each one you will find an icon with three points that when you hover it
+      shows two options: Edit and Delete.
+    </p>
+    <h2 class="text-xl font-semibold">Edit your subscriptions</h2>
+    <p>
+      When you press the Edit button, a form will open like the one shown when
+      you want to add a new subscription, but it will contain the data of the
+      selected subscription.
+    </p>
+    <p>Now you can edit each field.</p>
+    <p>
+      When you are ready, press the SAVE button to save the changes and close
+      the form.
+    </p>
+    <p>
+      Keep in mind that these fields are required and if you leave any blank you
+      will not be able to continue.
+    </p>
+    <h2 class="text-xl font-semibold">Delete your subscriptions</h2>
+    <p>
+      When you press the Delete button, the subscription is deleted. Please note
+      that this change is permanent and cannot be undone.
+    </p>
   </div>
-</Layout>
+</BaseLayout>

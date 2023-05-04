@@ -1,62 +1,47 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import NavBar from "../components/NavBar.astro";
-import Footer from "../components/Footer.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<Layout
+<BaseLayout
   title="Controllo - How to support Controllo"
   description="A short guide on how you can support Controllo."
   url="https://controllo.dlcastillop.com/how-to-support-controllo"
 >
-  <div class="min-h-screen bg-base-200 text-white">
-    <NavBar />
-    <main class="max-w-3xl m-auto">
-      <div class="hero mt-5">
-        <div class="hero-content text-center">
-          <div>
-            <h1 class="text-4xl font-bold">How to support Controllo</h1>
-            <p class="mt-6 text-lg text-left">
-              First of all we thank you for your interest in wanting to support
-              Controllo.
-            </p>
-            <p class="mt-6 text-lg text-left">
-              This project is free and open source. It is our desire to keep it
-              that way and also make it viable and for that we need your help.
-            </p>
-            <p class="mt-6 text-lg text-left">You can support Controllo by:</p>
-            <ul class="pt-6 text-lg text-left space-y-2">
-              <li>
-                ⭐ Leaving a star on the <a
-                  href="https://github.com/dlcastillop/controllo"
-                  class="link"
-                  target="_blank">GitHub repo</a
-                >.
-              </li>
-              <li>
-                👍 Rating the extension on the <a
-                  href="https://chrome.google.com/webstore/detail/controllo/bodddijlpmhpjplaajoigmejoglnjhif"
-                  class="link"
-                  target="_blank">Chrome Web Store</a
-                >,
-                <a
-                  href="https://addons.mozilla.org/es/firefox/addon/controllo/"
-                  class="link"
-                  target="_blank">Firefox Browser Add-Ons</a
-                >
-                and <a
-                  href="https://microsoftedge.microsoft.com/addons/detail/controllo/hepodmbgelammobllblgaindjhahghgj"
-                  class="link"
-                  target="_blank">Edge Plugins</a
-                >.
-              </li>
-              <li>🤝 Sharing the extension with others.</li>
-            </ul>
-            <p class="mt-6 text-lg text-left">Thank you!</p>
-          </div>
-        </div>
-      </div>
-    </main>
-    <Footer />
-  </div>
-</Layout>
+  <h1 class="text-4xl font-bold">How to support Controllo</h1>
+  <p class="mt-6 text-lg text-left">
+    First of all we thank you for your interest in wanting to support Controllo.
+  </p>
+  <p class="mt-6 text-lg text-left">
+    This project is free and open source. It is our desire to keep it that way
+    and also make it viable and for that we need your help.
+  </p>
+  <p class="mt-6 text-lg text-left">You can support Controllo by:</p>
+  <ul class="pt-6 text-lg text-left space-y-2">
+    <li>
+      ⭐ Leaving a star on the <a
+        href="https://github.com/dlcastillop/controllo"
+        class="link"
+        target="_blank">GitHub repo</a
+      >.
+    </li>
+    <li>
+      👍 Rating the extension on the <a
+        href="https://chrome.google.com/webstore/detail/controllo/bodddijlpmhpjplaajoigmejoglnjhif"
+        class="link"
+        target="_blank">Chrome Web Store</a
+      >,
+      <a
+        href="https://addons.mozilla.org/es/firefox/addon/controllo/"
+        class="link"
+        target="_blank">Firefox Browser Add-Ons</a
+      >
+      and <a
+        href="https://microsoftedge.microsoft.com/addons/detail/controllo/hepodmbgelammobllblgaindjhahghgj"
+        class="link"
+        target="_blank">Edge Plugins</a
+      >.
+    </li>
+    <li>🤝 Sharing the extension with others.</li>
+  </ul>
+  <p class="mt-6 text-lg text-left">Thank you!</p>
+</BaseLayout>
