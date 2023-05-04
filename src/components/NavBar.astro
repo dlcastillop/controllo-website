@@ -6,18 +6,13 @@ import CtaBtn from "./CtaBtn.astro";
   <nav class="navbar bg-base-200 px-6">
     <div class="navbar-start">
       <div class="dropdown">
-        <label tabindex="0" class="btn btn-ghost sm:hidden">
+        <label tabindex="0" class="hover:cursor-pointer sm:hidden">
           <svg
+            class="h-6 w-6"
             xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
-            fill="none"
             viewBox="0 0 24 24"
-            stroke="currentColor"
-            ><path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h8m-8 6h16"></path></svg
+            fill="currentColor"
+            ><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg
           >
         </label>
         <ul
@@ -42,7 +37,7 @@ import CtaBtn from "./CtaBtn.astro";
         </ul>
       </div>
       <a
-        class="text-xl font-bold flex gap-1.5 items-center"
+        class="text-xl font-bold flex gap-1.5 items-center ml-1.5 sm:ml-0"
         href="https://controllo.dlcastillop.com"
         ><img src="/icon.png" alt="Logo of Controllo" class="w-10 h-10" /><span
           >Controllo</span
