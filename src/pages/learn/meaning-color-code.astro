@@ -1,0 +1,59 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import CtaBtn from "../../components/CtaBtn.astro";
+---
+
+<BaseLayout
+  title="The meaning of the color code"
+  description="Learn what is the meaning of the color code"
+  url="https://controllo.dlcastillop.com/meaning-color-code"
+>
+  <div class="text-base text-left flex flex-col gap-6">
+    <h1 class="text-4xl font-bold text-center">
+      The meaning of the color code in Controllo
+    </h1>
+    <p>
+      With Controllo you can track all your subscriptions and to make it even
+      easier, each subscription you add has a color code that tells you how much
+      time is left until the next payment date. In this tutorial you will learn
+      what is the meaning behind each color.
+    </p>
+    <h2 class="text-xl font-semibold">
+      Red: less than 7 days for the next payment
+    </h2>
+    <p>
+      If the subscription is red, it means that you have less than 7 days to pay
+      for it.
+    </p>
+    <img
+      src="./tutorial_3.1.jpg"
+      alt="This subscription is red and needs to be payed in less than 7 days"
+      class="rounded"
+    />
+    <h2 class="text-xl font-semibold">
+      Yellow: less than 30 days for the next payment
+    </h2>
+    <p>
+      If the subscription is yellow, it means that you have less than 30 days to
+      pay for it.
+    </p>
+    <img
+      src="./tutorial_3.2.jpg"
+      alt="This subscription is yellow and needs to be payed in less than 30 days"
+      class="rounded"
+    />
+    <h2 class="text-xl font-semibold">
+      Green: more than 30 days for the next payment
+    </h2>
+    <p>
+      If the subscription is green, it means that you have more than 30 days to
+      pay for it.
+    </p>
+    <img
+      src="./tutorial_3.3.jpg"
+      alt="This subscription is green and needs to be payed in more than 30 days"
+      class="rounded"
+    />
+    <div class="self-center"><CtaBtn /></div>
+  </div>
+</BaseLayout>
