@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://controllo.dlcastillop.com
+Sitemap: Sitemap: https://controllo.dlcastillop.com/sitemap-index.xml
