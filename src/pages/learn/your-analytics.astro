@@ -1,0 +1,44 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import CtaBtn from "../../components/CtaBtn.astro";
+---
+
+<BaseLayout
+  title="Custom settings in Controllo"
+  description="Learn how to customize the settings in Controllo"
+  url="https://controllo.dlcastillop.com/learn/custom-settings"
+>
+  <div class="text-base text-left flex flex-col gap-6">
+    <h1 class="text-4xl font-bold text-center">Custom settings in Controllo</h1>
+    <p>
+      Controllo allows you to customize your individual experience. In this
+      tutorial you will learn the meaning of each setting and how to use them.
+    </p>
+    <h2 class="text-xl font-semibold">Locate the settings</h2>
+    <p>
+      The settings are located at the top of Controllo. Click on the gear icon
+      to open the settings window.
+    </p>
+    <img src="./tutorial_4.1.jpg" alt="Settings icon" class="rounded" />
+    <h2 class="text-xl font-semibold">"Show payment date" setting</h2>
+    <p>
+      If this setting is enabled, it will show the date of the next payment of
+      your subscriptions.
+    </p>
+    <img
+      src="./tutorial_4.2.jpg"
+      alt="Show payment date setting on"
+      class="rounded"
+    />
+    <p>
+      If this setting is disabled, it will show the number of days left for the
+      next payment of your subscriptions.
+    </p>
+    <img
+      src="./tutorial_4.3.jpg"
+      alt="Show payment date setting off"
+      class="rounded"
+    />
+    <div class="self-center"><CtaBtn /></div>
+  </div>
+</BaseLayout>
